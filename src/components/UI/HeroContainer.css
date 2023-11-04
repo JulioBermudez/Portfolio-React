@@ -1,0 +1,10 @@
+.custom-container-picture-drops {
+    height: 930px;
+    background-image: url(../images/bg-ripple.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .custom-container-picture-drops::after {
+    position: absolute;
+  }
