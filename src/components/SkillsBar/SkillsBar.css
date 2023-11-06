@@ -1,0 +1,7 @@
+.progress {
+  height: 5px;
+  margin-bottom: 10px;
+}
+.progress-bar-animated{
+    width: 50%;
+}

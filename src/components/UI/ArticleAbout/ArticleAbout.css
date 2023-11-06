@@ -1,15 +1,13 @@
 .custom-avatar-img-profile {
-    height: 500px;
-    margin-bottom: 30px;
+  height: 500px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 770px) {
+  .custom-avatar-img-profile {
+    margin-left: 15px;
   }
-  @media screen and (max-width: 770px) {
 
-    .custom-avatar-img-profile {
-      margin-left: 15px;
-    }
-  
-    .custom-avatar-img-profile {
-      margin-bottom: 0px;
-    }
-  
+  .custom-avatar-img-profile {
+    margin-bottom: 0px;
   }
+}
