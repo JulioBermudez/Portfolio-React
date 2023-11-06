@@ -1,0 +1,17 @@
+.custom-text-title {
+    filter: opacity(0);
+  }
+  .shadow-text {
+    font-size: 570%;
+    color: var(--grey-text-color);
+    bottom: 70px;
+  }
+  @media screen and (max-width: 1025px) {
+}
+
+@media screen and (max-width: 770px) { 
+  .shadow-text {
+    font-size: 370%;
+    bottom: 50px;
+  }
+}

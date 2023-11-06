@@ -1,10 +1,34 @@
+.custom-margin-water-container {
+  bottom: 80px;
+}
+.custom-container-avatar {
+  margin-top: 320px!important;
+}
+.custom-greetings h1 {
+  font-size: 400%;
+  color: var(--white-text-color);
+}
+.custom-greetings span {
+  color: var(--warning-color);
+}
+.custom-container-picture-drops p {
+  color: var(--grey-text-color);
+}
 .custom-container-picture-drops {
-    height: 930px;
-    background-image: url(../images/bg-ripple.png);
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
+  height: 930px;
+  background-image: url(../images/bg-ripple.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.custom-container-picture-drops::after {
+  position: absolute;
+}
+@media screen and (max-width: 770px) {
+  .custom-greetings h1 {
+    font-size: 250%;
   }
-  .custom-container-picture-drops::after {
-    position: absolute;
+  .custom-container-picture-drops {
+    resolution: 1000;
   }
+}

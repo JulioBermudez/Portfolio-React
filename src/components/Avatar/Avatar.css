@@ -1,0 +1,22 @@
+.custom-avatar {
+    background-image: linear-gradient(
+      90deg,
+      rgba(11, 25, 38, 1) 0%,
+      rgba(46, 58, 80, 1) 50%,
+      rgba(11, 25, 38, 1) 100%
+    );
+    object-fit: cover;
+    position: relative;
+    border: solid 5px #617389;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+  }
+  .custom-avatar img {
+    left: -1px;
+    position: absolute;
+    object-fit: contain;
+    width: 182px;
+    height: 180px;
+    border-radius: 50%;
+  }

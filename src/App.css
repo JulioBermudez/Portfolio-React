@@ -1,18 +1,70 @@
 :root {
-    --bg-color: #0a101e;
-    --warning-color: #fec544;
-    --white-text-color: #fdfeff;
-    --grey-text-color: #979ba6;
-  }  
-  .bg-dark-blue{
-    background-color: var(--bg-color);
-  }
-  .white {
-    color: var(--white-text-color)!important;
-  }
-  .warning {
-    color: var(--warning-color);
-  }
-  .grey {
-    color: var(--grey-text-color);
-  }
+  --bg-color: #0a101e;
+  --warning-color: #fec544;
+  --white-text-color: #fdfeff;
+  --grey-text-color: #979ba6;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: var(--white-text-color);
+}
+@font-face {
+  font-family: "blackSignature";
+  src: url(../fonts/Black\ \ Signature.ttf);
+}
+@font-face {
+  font-family: "doctor";
+  src: url(../fonts/TheDoctor.ttf);
+}
+@font-face {
+  font-family: "Groningen-Bold";
+  src: url(../fonts/Groningen-Bold.ttf);
+}
+@font-face {
+  font-family: "Groningen-Regular";
+  src: url(../fonts/Groningen-Regular.ttf);
+}
+@font-face {
+  font-family: "CassanemoPress";
+  src: url(../fonts/CassanemoPress.ttf);
+}
+.water {
+  font-family: "CassanemoPress";
+}
+.doctor {
+  font-family: "doctor";
+  font-size: 180%;
+}
+
+p,
+li {
+  font-family: "Groningen-Regular";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span {
+  font-family: "Groningen-Bold";
+}
+.bg-dark-blue {
+  background-color: var(--bg-color)!important;
+}
+.white {
+  color: var(--white-text-color) !important;
+}
+.warning {
+  color: var(--warning-color)!important;
+}
+.grey {
+  color: var(--grey-text-color)!important;
+}

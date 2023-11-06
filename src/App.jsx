@@ -1,17 +1,15 @@
-import './App.css'
-import Header from './components/Header/Header'
-import Water from './components/Water/Water'
-
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar.jsx";
+import HeroContainer from "./components/UI/HeroContainer";
+import AboutMeContainer from "./components/UI/AboutMeContainer";
 
 function App() {
- 
-
   return (
-  <>  
-  <Header/>
-  <Water/>
-  </>
-    
+    <>
+      <NavBar/>
+      <HeroContainer />
+      <AboutMeContainer />
+    </>
   );
 }
 
