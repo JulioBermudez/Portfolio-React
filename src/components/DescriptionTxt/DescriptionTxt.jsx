@@ -3,7 +3,7 @@ import "../DescriptionTxt/DescriptionTxt.css";
 const AboutMeTxt = (props) => {
   return (
     <>
-      <article className="col-12 text-center" id="divAbout">
+      <article className="col-12 text-center custom-text-title custom-title" id="divAbout">
         <h1 className="warning">
           {props.text}
           <h1 className="shadow-text opacity-25 position-relative">

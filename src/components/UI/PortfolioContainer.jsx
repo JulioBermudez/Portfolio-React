@@ -1,7 +1,9 @@
 import "../UI/PortfolioContainer.css"
 import DescriptionTxt from "../DescriptionTxt/DescriptionTxt.jsx";
 import projectImg from "../images/movemate.png"
+import foodiePalImg from "../images/PHOTO-2023-08-01-00-24-01.jpg"
 const PortfolioContainer = () => {
+
   const portfolioTxt = "PORTFOLIO";
   return (
     <>
@@ -18,18 +20,13 @@ const PortfolioContainer = () => {
                   alt=""
                 />
               </a>
-              <section className="position-absolute d-none">
-                <h3>Coming soon</h3>
-              </section>
             </div>
             <div className="col-10 col-sm-10 col-lg-4 d-flex justify-content-center custom-movement-div">
-              <img
-                src="https://elements-cover-images-0.imgix.net/265ee29e-2b82-4e71-94e6-fd545ccabe14?auto=compress%2Cformat&fit=max&w=1370&s=b1bec7556a644f7bfe01cd51b305de9b"
+              <a href="https://juliobermudez.github.io/FoodiePal/"><img
+                src={foodiePalImg}
                 alt=""
-              />
-              <section className="position-absolute">
-                <h3>Coming soon</h3>
-              </section>
+              /></a>
+              
             </div>
             <div className="col-10 col-sm-10 col-lg-7 d-flex justify-content-center custom-movement-div">
               <img

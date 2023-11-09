@@ -1,0 +1,39 @@
+.st-progressbar-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+  font-family: "Roboto", sans-serif;
+}
+.st-single-progressbar {
+    margin-top: -5px;
+  }
+.st-progressbar-title {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.st-progressbar-percentage {
+  color: #fec544;
+  font-weight: 400;
+}
+.st-progressbar-wrap {
+  overflow: hidden;
+}
+@media screen and (min-width: 992px) {
+  .st-height-b0 {
+    height: 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .st-height-lg-b30 {
+    height: 30px;
+  }
+}

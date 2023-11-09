@@ -1,13 +1,17 @@
 import "../NavBar/NavBar.css"
 import Bubble from "../Bubble/Bubble";
+import cvPath from "../images/junior full stack web developer.pdf"
 const NavBar = () => {
+
+
   return (
-    <header className="row sticky-top bg-color">
+    <>
+    <header className="row bg-color sticky-top">
       <section className="col-12 d-flex justify-content-center text position-absolute">
         <div className="col-12">
           <nav className="navbar navbar-expand-lg bg-dark-blue">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" href="#home">
                 {" "}
                 <Bubble />
               </a>
@@ -25,29 +29,29 @@ const NavBar = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
-                  <li className="nav-item">
+                <li className="nav-item">
                     <a
                       className="nav-link active white"
                       aria-current="page"
-                      href="#"
+                      href="/"
                     >
                       HOME
                     </a>
                   </li>
                   <li className="nav-item">
                     <a
-                      className="nav-link active white warning"
+                      className="nav-link active white"
                       aria-current="page"
-                      href="#"
+                      href="/aboutme"
                     >
                       ABOUT
                     </a>
                   </li>
                   <li className="nav-item">
                     <a
-                      className="nav-link active white"
+                      className="nav-link active warning"
                       aria-current="page"
-                      href="#"
+                      href="/myskills"
                     >
                       MY SKILLS
                     </a>
@@ -56,7 +60,7 @@ const NavBar = () => {
                     <a
                       className="nav-link active white"
                       aria-current="page"
-                      href="#"
+                      href="/portfolio"
                     >
                       PORTFOLIO
                     </a>
@@ -65,7 +69,16 @@ const NavBar = () => {
                     <a
                       className="nav-link active white"
                       aria-current="page"
-                      href="#"
+                      href={cvPath}
+                    >
+                      MY RESUME
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      className="nav-link active white"
+                      aria-current="page"
+                      href="/contact"
                     >
                       CONTACT
                     </a>
@@ -77,6 +90,7 @@ const NavBar = () => {
         </div>
       </section>
     </header>
+    </>
   );
 };
 

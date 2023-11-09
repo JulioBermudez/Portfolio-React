@@ -12,12 +12,14 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
-    
+    "emailjs-com": "^3.2.0",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-   
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.5",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",

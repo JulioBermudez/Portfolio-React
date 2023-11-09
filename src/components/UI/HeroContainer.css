@@ -1,5 +1,6 @@
 .custom-margin-water-container {
-  bottom: 80px;
+ top: 0;
+ right: 0;
 }
 .custom-container-avatar {
   margin-top: 320px!important;
@@ -15,7 +16,8 @@
   color: var(--grey-text-color);
 }
 .custom-container-picture-drops {
-  height: 930px;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../images/bg-ripple.png);
   background-position: center;
   background-repeat: repeat;
