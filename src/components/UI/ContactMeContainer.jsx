@@ -7,7 +7,7 @@ const ContactMeContainer = () => {
     <>
       <DescriptionTxt text={contactMe} />
 
-      <section className="row d-flex justify-content-center">
+      <section className="row d-flex justify-content-center custom-margin">
         <div className="col-sm-12 col-lg-9 d-flex flex-wrap justify-content-evenly">
           <Form />
           <section className="col-10 col-sm-10 col-lg-5">

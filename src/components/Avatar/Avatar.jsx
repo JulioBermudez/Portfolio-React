@@ -3,7 +3,7 @@ import "../Avatar/Avatar.css";
 const Avatar = () => {
   return (
     <div className="d-flex justify-content-center">
-      <div className="custom-avatar m-5">
+      <div className="custom-avatar">
         <img src={avatarImg} alt="Avatar Image" />
       </div>
     </div>
