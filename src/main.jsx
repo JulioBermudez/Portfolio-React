@@ -7,7 +7,7 @@ import MySkillsContainer from './components/UI/MySkillsContainer';
 import AboutMeContainer from './components/UI/AboutMeContainer';
 import HeroContainer from './components/UI/HeroContainer';
 import PortfolioContainer from './components/UI/PortfolioContainer';
-import ContactMeContainer from './components/UI/contactMeContainer';
+import ContactMeContainer from './components/UI/ContactMeContainer';
 
 const router = createBrowserRouter([
     {
