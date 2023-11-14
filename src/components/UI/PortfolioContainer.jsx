@@ -56,6 +56,7 @@ const PortfolioContainer = () => {
   return (
     <>
       <section className="row position-relative" id="portfolio">
+        <div className="customDiv"></div>
         <DescriptionTxt text={portfolioTxt} />
 
         <section className="row d-flex justify-content-center">

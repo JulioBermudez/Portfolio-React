@@ -106,7 +106,9 @@ span {
 .container-div {
   height: 60px;
 }
-
+.customDiv{
+  margin-bottom: 140px;
+}
 .movement2 {
   animation: 3s showDiv linear forwards;
 }

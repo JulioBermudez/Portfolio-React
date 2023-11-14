@@ -5,6 +5,7 @@ const MySkillsContainer = () => {
   return (
     <>
       <section className="row" id="skills">
+        <div className="customDiv"></div>
         <DescriptionTxt text={mySkillsTxt}/>
       </section>
       <SkillsBar/>
