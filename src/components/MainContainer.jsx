@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AboutMeContainer from "./UI/AboutMeContainer";
 import PortfolioContainer from "./UI/PortfolioContainer";
-import ContactMeContainer from "./UI/contactMeContainer";
+import ContactMeContainer from "./UI/ContactMeContainer.jsx";
 import HeroContainer from "./UI/HeroContainer";
 import MySkills from "./UI/MySkillsContainer";
 import NavBar from "./NavBar/NavBar";
